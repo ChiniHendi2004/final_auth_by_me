@@ -2,7 +2,7 @@ services:
   - type: web
     name: laravel-app
     runtime: docker
-    repo: https://github.com/ChiniHendi2004/doctor_appointment_apis
+    repo: https://github.com/ChiniHendi2004/final_auth_by_me
     region: oregon
     plan: free
     envVars:
@@ -13,12 +13,12 @@ services:
       - key: DB_CONNECTION
         value: mysql
       - key: DB_HOST
-        value: bwuizwmonubhwvcnlaxr-mysql.services.clever-cloud.com
+        value: bzxhtuvciazryty89hmi-mysql.services.clever-cloud.com
       - key: DB_PORT
         value: 3306
       - key: DB_DATABASE
-        value: bwuizwmonubhwvcnlaxr
+        value: bzxhtuvciazryty89hmi
       - key: DB_USERNAME
-        value: u1fdwyyvqz6nlgtz
+        value: uwtaonrjqeaqelut
       - key: DB_PASSWORD
-        value: pv8mYwOnbkjRQYnzVLqC
+        value: YG5S7RC6YdU5E5JNJjGP
